@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>studio-test-widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>studio-test-widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 22:31:25</sys_created_on>
+        <sys_id>258c4a822fc010109cc11e282799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>studio-test-widget</sys_name>
+        <sys_package display_value="incident-widget" source="x_449705_incident">a55e254e2f4010109cc11e282799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="incident-widget">a55e254e2f4010109cc11e282799b60d</sys_scope>
+        <sys_update_name>sp_widget_258c4a822fc010109cc11e282799b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 22:31:25</sys_updated_on>
+        <template><![CDATA[<div><!-- your widget template --></div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="incident-widget">a55e254e2f4010109cc11e282799b60d</application>
+        <file_path/>
+        <instance_id>2efcd57fdbfeccd049eac597059619e4</instance_id>
+        <instance_name>dev100588</instance_name>
+        <name>sp_widget_258c4a822fc010109cc11e282799b669</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function() {  /* widget controller */  var c = this;}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;studio-test-widget&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;studio-test-widget&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-09 22:31:25&lt;/sys_created_on&gt;&lt;sys_id&gt;258c4a822fc010109cc11e282799b669&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;studio-test-widget&lt;/sys_name&gt;&lt;sys_package display_value="incident-widget" source="x_449705_incident"&gt;a55e254e2f4010109cc11e282799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="incident-widget"&gt;a55e254e2f4010109cc11e282799b60d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_258c4a822fc010109cc11e282799b669&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-09 22:31:25&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;&lt;!-- your widget template --&gt;&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1107822363</payload_hash>
+        <record_name>studio-test-widget</record_name>
+        <reverted_from/>
+        <source>ad5e29ce2f4010109cc11e282799b6d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 22:31:26</sys_created_on>
+        <sys_id>fd8c4a822fc010109cc11e282799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1716111c29e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 22:31:26</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>398c4a82a5c0101060db1d56b41ca16c</update_guid>
+        <update_guid_history>398c4a82a5c0101060db1d56b41ca16c:-1107822363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="studio-test-widget">f29dc6c22fc010109cc11e282799b6f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-09 22:36:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>2f2ba492b4294040a2f4e14a3bc66400</sys_id>
+        <sys_metadata>258c4a822fc010109cc11e282799b669</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>studio-test-widget</sys_name>
+        <sys_package display_value="incident-widget" source="x_449705_incident">a55e254e2f4010109cc11e282799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="incident-widget">a55e254e2f4010109cc11e282799b60d</sys_scope>
+        <sys_scope_delete display_value="">1ee5805aa9544000959de09000000000</sys_scope_delete>
+        <sys_update_name>sp_widget_258c4a822fc010109cc11e282799b669</sys_update_name>
+        <sys_update_version display_value="sp_widget_258c4a822fc010109cc11e282799b669">fd8c4a822fc010109cc11e282799b66c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-09 22:36:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
